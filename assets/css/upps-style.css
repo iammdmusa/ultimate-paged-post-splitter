@@ -1,0 +1,97 @@
+/**
+ * Created by PhpStorm.
+ * User: Md.Musa
+ * Date: 2/14/2015
+ * Time: 9:10 PM
+ */
+
+
+.upps-btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Courier New;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.upps-btn:hover {
+    text-decoration: none;
+}
+.upps-fullpost-link a{
+    text-decoration: none!important;
+}
+.pagination-slider .upps-the-content{
+    margin-bottom:.813em 0;
+}
+a .upps-prev .img-prv{
+    padding: 2px 0 5px 0;
+}
+a .upps-next .img-next{
+    padding: 2px 0 5px 0;
+}
+a .upps-next .img-next:hover, a .upps-prev .img-prv:hover{
+    background: #9f9f9f;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.upps-slider-nav{
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    font-size:1.1em;
+    font-weight:bold;
+    line-height: 1.5;
+    margin:1em 0;
+    min-height:3em;
+    text-transform:uppercase;
+    padding:.75em 0;
+    position:relative;
+}
+
+.upps-slide-count{
+    display:block;
+    text-align:center;
+    text-transform:none;
+}
+
+.upps-slider-nav .upps-next{
+    padding-right:.2em;
+    position:absolute;
+    right:0;
+    top:0;
+}
+
+.upps-slider-nav .upps-prev{
+    left:0;
+    padding-left:.2em;
+    position:absolute;
+    top:0;
+}
+
+.upps-slider-nav-bottom{
+    margin-top:2.45em;
+    text-align:left;
+}
+
+.upps-slider-nav-bottom.first-slide{
+    text-align:right;
+}
+
+.upps-slider-nav-bottom.first-slide .upps-next{
+    position:relative;
+}
+
+.upps-slider-nav-bottom .upps-prev{
+    position:relative;
+}
+
+/* new clearfix */
+.upps-clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}

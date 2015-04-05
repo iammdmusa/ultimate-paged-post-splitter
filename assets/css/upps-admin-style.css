@@ -1,0 +1,86 @@
+#upps-body{
+    width: 99%;
+    height: auto;
+    background: ghostwhite  ;
+    overflow: hidden;
+}
+#uppps-head{
+    padding: 20px;
+    background: #000000;
+    color: white;
+    text-align: center;
+}
+.title{
+    text-transform: uppercase;
+}
+#row{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    height: auto;
+    overflow: hidden;
+}
+#upps-content select,#row input{
+    width: 99%;
+}
+#row input[type=checkbox]{
+    width: auto;
+}
+#upps-content input[type=submit]{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+#upps-content select option{
+    text-align: center;
+}
+.txt-title{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+#upps-main{
+    height: auto;
+    width: 100%;
+}
+#upps-content{
+    float: left;
+    width: 65%;
+    padding: 20px;
+}
+#upps-sidebar{
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+}
+fieldset {
+    padding: 1em;
+    border: 1px solid #a9a9a9;
+}
+legend span{
+    font-weight: bolder;
+    font-size: 18px;
+    color: #a9a9a9;
+    text-transform: uppercase;
+}
+label {
+    float:left;
+}
+.profile{
+    float: left;
+    width: 30%;
+    padding-top: 10px;
+}
+.myInfo{
+    float: left;
+    width:70%;
+   padding-top: 10px;
+}
+.name{
+    font-size: 16px;
+}
+.bio{
+    text-align: justify;
+    font-size: 12px;
+}
