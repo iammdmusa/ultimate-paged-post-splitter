@@ -12,6 +12,8 @@ Author URI:		http://shuvomusa.me
 Version:		1.0.0
 */
 
-    include '/includes/upps-enqueue-scripts.php';
-    include '/includes/upps-functions.php';
-    include '/includes/upps-setting-options.php';
+$currentFile = __FILE__;
+$currentFolder = dirname($currentFile);
+    require_once $folderIncludes . '/includes/upps-enqueue-scripts.php';
+    require_once $folderIncludes . '/includes/upps-functions.php';
+    require_once $folderIncludes . '/includes/upps-setting-options.php';
