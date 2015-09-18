@@ -1,0 +1,4 @@
+<?php 
+
+// Go & Kill Yourself !
+?>
